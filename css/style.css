@@ -1,0 +1,132 @@
+@charset "UTF-8";
+body {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "나눔고딕", sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+.gobtn {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #eee;
+}
+
+.gobtn a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 30px;
+  text-align: center;
+}
+
+header .header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header .logo {
+  width: 180px;
+  height: 100%;
+}
+
+header .header .logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header .header .logo a img {
+  width: 100%;
+  height: auto;
+}
+
+header .header .menu {
+  width: 600px;
+  height: 100%;
+}
+
+header .header .menu > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+header .header .menu > ul li {
+  height: 100%;
+}
+
+header .header .menu > ul li .submenu {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+}
+
+header .header .menu > ul li .submenu .subtit {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header .menu > ul li .submenu .subtit:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #eee;
+  z-index: -1;
+}
+
+header .header .menu > ul li .submenu .sublist {
+  width: 1200px;
+  height: 300px;
+  background-color: #fff;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header .menu > ul li .submenu .sublist li {
+  width: 33.3333%;
+  padding: 20px;
+}
+
+header .header .menu > ul li .submenu .sublist li .depthtit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header .menu > ul li .submenu.on {
+  display: block;
+}
